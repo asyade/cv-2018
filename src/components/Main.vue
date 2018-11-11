@@ -1,7 +1,8 @@
 <template>
   <v-container container-main grid-list-md text-xs-center>
     <vue-particles  color="#0c907d" :particleOpacity="0.7" :particlesNumber="80" shapeType="circle" :particleSize="4" linesColor="#0c907d" :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3" :hoverEffect="false"  :clickEffect="false" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-color: #113a5d;" id="particles-js"></vue-particles>
-    <v-layout row wrap>
+    <transition name="fade">
+    <v-layout v-if="main" row wrap>
       <v-flex xs12 md8>
         <v-layout row wrap>
           <v-flex class="bounce-in-top" xs-12>
@@ -16,7 +17,7 @@
                   </v-flex>
                   <v-flex xs8 text-xs-left style="max-height: 170px;">
                     <div style="position: relative; height: 100%; width: 100%; min-height: 120px;">
-                      <v-subheader>
+                      <v-subheader style="padding-top: 10px;">
                         <span>
                           <span style="font-size: 1.2em;">Asya Corbeau, 20 Ans</span>
                           <br/>
@@ -48,7 +49,7 @@
                   <v-timeline-item  small class="mb-3" color="#0c907d" >
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
-                        <v-subheader>Ecole 42</v-subheader>
+                        <v-subheader>École 42</v-subheader>
                         <p style="padding: 0em 1em;">En parallèle des projets proposer par l'école j'ai participé a plusieurs hackatons (Consult'in France 1st, Respire hacktion 3st, E-Tonomy 3st).</br>Maintenant en fin de cursus j'étudie principalement la programmation système</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>Depuis 2017</v-flex>
@@ -122,7 +123,8 @@
           </v-card-text>
         </v-card>
       </v-flex>
-    </v-layout>
+      </v-layout>
+    </transition>
   </v-container>
 </template>
 
@@ -130,6 +132,7 @@
 
   export default {
     data: () => ({
+      main: true,
       skills: [
       {
         id: 1,
@@ -163,7 +166,7 @@
       },
       {
         id: 4,
-        name: 'Lib/Framwork/Techno',
+        name: 'Lib/Framework/Techno',
         children: [
           { id: 1, name: 'CCXT' },
           { id: 2, name: 'Vue.js' },
@@ -215,12 +218,79 @@ a:visited, a {
   color: #f9f9f9 !important;
 }
 
+.fade-enter-active {
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .3s both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .3s both;
+} 
+.fade-leave-active {
+	-webkit-animation: bounce-out-top 1s both;
+	        animation: bounce-out-top 1s both;
+}
 
+.fade2-enter-active {
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .3s both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .3s both;
+} 
+.fade2-leave-active {
+	-webkit-animation: bounce-out-top 1s both 10s;
+	        animation: bounce-out-top 1s both 10s;
+}
 
 .bounce-in-top, .bounce-in-bottom, .roll-in-right {
 	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .3s both;
 	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .3s both;
 }
+@-webkit-keyframes bounce-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+    opacity: 0;
+  }
+}
+@keyframes bounce-out-top {
+  52% {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  70% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+    opacity: 0;
+  }
+}
+
 @-webkit-keyframes slide-in-top {
   0% {
     -webkit-transform: translateY(-1000px);

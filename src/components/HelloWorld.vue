@@ -145,7 +145,7 @@
         name: 'Prototypage et applicatif',
         children: [
           { id: 1, name: 'Python' },
-          { id: 2, name: 'C#/Wpf/ASP' },
+          { id: 2, name: 'C#/Wpf' },
           { id: 3, name: 'Java/Android' },
           { id: 4, name: 'Arduino' },
           { id: 5, name: 'Bash' },

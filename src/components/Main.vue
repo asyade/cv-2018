@@ -27,12 +27,12 @@
                       </v-subheader>
                       <v-subheader style="position: absolute; bottom: 0;margin-top: 5px; font-size: .9em;">
                         <p>
-                        <a href="phoneto:00665509956">TÉLÉPHONE 0664409956</a>
+                        <a class="swing-in-top-fwd" href="phoneto:00665509956">TÉLÉPHONE 0664409956</a>
                         <br>
-                        <a href="mailto:zarandifar@gmail.com">MAIL zarandifar@gmail.com</a>
+                        <a class="swing-in-top-fwd" href="mailto:zarandifar@gmail.com">EMAIL zarandifar@gmail.com</a>
                         <br>
-                        <a href="mailto:zarandifar@gmail.com">LinkedIn</a><span> | </span>
-                        <a href="mailto:zarandifar@gmail.com">Github</a>
+                        <a class="swing-in-top-fwd" href="mailto:zarandifar@gmail.com">LinkedIn</a><span> | </span>
+                        <a class="swing-in-top-fwd" href="mailto:zarandifar@gmail.com">Github</a>
                         </p>
                       </v-subheader>
                     </div>
@@ -49,7 +49,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>Ecole 42</v-subheader>
-                        <p style="padding: 0em 1em;">Mis a part les projet de l'ecole j'ai participer a plusieurs hackaton (Consult'in france 1st, Respir hacktion 2st, Etonomy 2st), maintenant en fin de cursus j'etudie principalement la programmation système</p>
+                        <p style="padding: 0em 1em;">En parallèle des projets proposer par l'école j'ai participé a plusieurs hackatons (Consult'in France 1st, Respire hacktion 3st, E-Tonomy 3st).</br>Maintenant en fin de cursus j'étudie principalement la programmation système</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>Depuis 2017</v-flex>
                     </v-layout>
@@ -58,7 +58,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>Seed-up - STAGE</v-subheader>
-                        <p style="padding: 0em 1em;">Stage de 6 mois durant les quelle je me suis familiariser avec l'intgration continue, la methode agile et l'ecosysteme aws par le biais de plusieurs application et programmes de test</p>
+                        <p style="padding: 0em 1em;">Durant ce stage, me suis familiarisé avec l'intégration continue, la méthode agile et l'écosystème AWS par le biais de plusieurs applications et programmes de test</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>11/2017 05/2018</v-flex>
                     </v-layout>
@@ -67,7 +67,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>MOORE - CDD</v-subheader>
-                        <p style="padding: 0em 1em;">Devloppement de moore, un filesysteme connectee au cloud utilisant un AI, il vise principalement le marchee du mobile c'est pourquoi nous il est devlopper pour Android, principalement en RUST et du JAVA</p>
+                        <p style="padding: 0em 1em;">J'ai participé à la réécriture du prototype de MOORE, un filesystem connecté au cloud utilisant un AI, il vise principalement le marché du mobile c'est pourquoi nous il a été réécrit pour Android, principalement en RUST</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>05/2018 09/2018</v-flex>
                     </v-layout>
@@ -76,15 +76,15 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>The wizzard - Projet</v-subheader>
-                        <p style="padding: 0em 1em;">Nous devloppons des algorythme de prediction sur le marchee des cryptomonnais, actuellement le POC d'un outils utilisant ces algorytme, est disponible</p>
+                        <p style="padding: 0em 1em;">Nous développons des algorithme de prédiction sur le marché des cryptomonnaie, le POC d'un outil utilisant ces algorithme, est disponible</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>Depuis 10/2018</v-flex>
                     </v-layout>
                   </v-timeline-item>
                   <v-timeline-item  color="#0c907d" class="mb-3"  small>
                     <v-layout text-xs-left justify-space-between>
-                      <v-flex xs10><v-subheader>Freelance (Devloppeur web)</v-subheader>
-                      <v-card-text>Jai effectuer plusieurs mission web et ai completement devlopper les sites suivant <br><a href="http://cosm-xskateboard.com">cosm-xskateboard.com</a>, <a href="http://helpjivan.org/">helpjivan.org</a>, <a href="http://www.aquareden.fr">aquareden.fr</a> et <a href="https://jeuduroi.fr">jeuduroi.fr</a></v-card-text></v-flex>
+                      <v-flex xs10><v-subheader>Freelance (Développeur web)</v-subheader>
+                      <v-card-text>J'ai effectué plusieurs missions web et ai complètement développé les sites suivants (La qualité est moyenne, le travail est ancien) <br><a href="http://cosm-xskateboard.com">cosm-xskateboard.com</a>, <a href="http://helpjivan.org/">helpjivan.org</a>, <a href="http://www.aquareden.fr">aquareden.fr</a> et <a href="https://jeuduroi.fr">jeuduroi.fr</a></v-card-text></v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>Entre 2015 et 2017</v-flex>
                     </v-layout>
                   </v-timeline-item>
@@ -96,13 +96,13 @@
             <v-card>
               <v-card-title>
                 <v-subheader>
-                Qui suije ?
+                Qui sui-je ?
                 </v-subheader>
               </v-card-title>
               <v-card-text style="padding: 0em 2.2em 2em 2.2em;">
                 Passionner de programmation je n'ai de sesse de devlopper mes competences, je prendre le temps de faire du code de qualitee et je suis curieux, toujour a la recherche des meilleurs alternative.<br/>
-                Mon atout principale est ma capacitee a apprendre, pour moi utiliser une nouvelle techno, un nouveau framweork ou un outils inconnue est un divertisement plus qu'une corvee</br>
-                Tres autonome mais egalement alaise en groupe je suis capable de concevoire et de devlopper des infrastructure complexe, adaptee et adaptative.
+                Mon atout principal est ma capacité a apprendre, pour moi utiliser une nouvelle techno, un nouveau framework ou un outil inconnu est un plaisir plus-tot qu'une corvée.</br>
+                Autonome mais également très alaise en groupe je suis capable de concevoir et de développer des infrastructures complexes, adaptées et adaptative.
               </v-card-text>
             </v-card>
           </v-flex>
@@ -251,5 +251,50 @@ a:visited, a {
   min-width: 460px;
 }
 
+/* ----------------------------------------------
+ * Generated by Animista on 2018-11-11 3:33:22
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation swing-in-top-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+            transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+            transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+
+.swing-in-top-fwd {
+}
 
 </style>

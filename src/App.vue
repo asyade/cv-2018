@@ -9,13 +9,11 @@
 
 <script>
 import Main from './components/Main'
-import Skills from './components/Skills'
 
 export default {
   name: 'App',
   components: {
-    Main,
-    Skills
+    Main
   },
   data () {
     return {

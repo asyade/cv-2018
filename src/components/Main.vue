@@ -98,7 +98,7 @@
               <v-card-title>
               </v-card-title>
               <v-card-text style="padding: 0em 2.2em 2em 2.2em;">
-                <v-subheader style="padding: 14px 16px 0 16px;">
+                <v-subheader style="padding: 14px 0px 16px 0px;">
                   Qui sui-je ?
                 </v-subheader>
                 Passionner par la programmation je n'ai de cesse de développer mes compétences, je prendre le temps de faire du code de qualité et suis curieux, toujours a la recherche des meilleurs alternative.<br/>

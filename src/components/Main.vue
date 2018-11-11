@@ -32,7 +32,7 @@
                         <br>
                         <a class="swing-in-top-fwd" href="mailto:zarandifar@gmail.com">EMAIL zarandifar@gmail.com</a>
                         <br>
-                        <a class="swing-in-top-fwd" href="mailto:zarandifar@gmail.com">LinkedIn</a><span> | </span>
+                        <a class="swing-in-top-fwd" href="https://www.linkedin.com/in/asya-corbeau-4ab9ba151/">LinkedIn</a><span> | </span>
                         <a class="swing-in-top-fwd" href="https://github.com/asyade">Github</a>
                         </p>
                       </v-subheader>
@@ -59,7 +59,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>Seed-up - STAGE</v-subheader>
-                        <p style="padding: 0em 1em;">Durant ce stage, me suis familiarisé avec l'intégration continue, la méthode agile et l'écosystème AWS par le biais de plusieurs applications et programmes de test</p>
+                        <p style="padding: 0em 1em;">Durant ce stage, je me suis familiarisé avec l'intégration continue, la méthode agile et l'écosystème AWS par le biais de plusieurs applications et programmes de test</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>11/2017 05/2018</v-flex>
                     </v-layout>

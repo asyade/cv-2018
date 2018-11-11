@@ -68,7 +68,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>MOORE - CDD</v-subheader>
-                        <p style="padding: 0em 1em;">J'ai participé à la réécriture du prototype de MOORE, un filesystem connecté au cloud utilisant un AI. Il vise principalement le marché du mobile c'est pourquoi  il a été réécrit pour Android en RUST</p>
+                        <p style="padding: 0em 1em;">J'ai participé à la réécriture du prototype de MOORE, un filesystem connecté au cloud utilisant un apprentissage intelligent. Il vise principalement le marché du mobile c'est pourquoi il a été réécrit pour Android en RUST</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>05/2018 09/2018</v-flex>
                     </v-layout>
@@ -77,7 +77,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>The wizzard - Projet</v-subheader>
-                        <p style="padding: 0em 1em;">Nous développons des algorithme de prédiction sur le marché des cryptomonnaie, le POC d'un outil utilisant ces algorithme est disponible</p>
+                        <p style="padding: 0em 1em;">Nous développons des algorithmes de prédiction sur le marché des cryptomonnaies, le POC d'un outil utilisant ces algorithmes est disponible</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>Depuis 10/2018</v-flex>
                     </v-layout>
@@ -85,7 +85,7 @@
                   <v-timeline-item  color="#0c907d" class="mb-3"  small>
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10><v-subheader>Freelance (Développeur web)</v-subheader>
-                      <v-card-text>J'ai effectué plusieurs missions web et ai complètement développé les sites suivants (La qualité est moyenne, le travail ancien) <br><a href="http://cosm-xskateboard.com">cosm-xskateboard.com</a>, <a href="http://helpjivan.org/">helpjivan.org</a>, <a href="http://www.aquareden.fr">aquareden.fr</a> et <a href="https://jeuduroi.fr">jeuduroi.fr</a></v-card-text></v-flex>
+                      <v-card-text>J'ai effectué plusieurs missions web et ai complètement développé les sites suivants (la qualité est moyenne, le travail ancien) <br><a href="http://cosm-xskateboard.com">cosm-xskateboard.com</a>, <a href="http://helpjivan.org/">helpjivan.org</a>, <a href="http://www.aquareden.fr">aquareden.fr</a> et <a href="https://jeuduroi.fr">jeuduroi.fr</a></v-card-text></v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>Entre 2015 et 2017</v-flex>
                     </v-layout>
                   </v-timeline-item>
@@ -96,13 +96,13 @@
           <v-flex xs12 text-xs-left roll-in-right>
             <v-card>
               <v-card-title>
-                <v-subheader>
-                Qui sui-je ?
-                </v-subheader>
               </v-card-title>
               <v-card-text style="padding: 0em 2.2em 2em 2.2em;">
-                Passionner par la programmation je n'ai de sesse de devlopper mes competences, je prendre le temps de faire du code de qualitee et suis curieux, toujour a la recherche des meilleurs alternative.<br/>
-                Mon atout principal est ma capacité a apprendre, pour moi utiliser une nouvelle techno, un nouveau framework ou un outil inconnu est un plaisir plus-tot qu'une corvée.</br>
+                <v-subheader style="padding: 14px 16px 0 16px;">
+                  Qui sui-je ?
+                </v-subheader>
+                Passionner par la programmation je n'ai de cesse de développer mes compétences, je prendre le temps de faire du code de qualité et suis curieux, toujours a la recherche des meilleurs alternative.<br/>
+                Mon atout principal est ma capacité à apprendre, pour moi utiliser une nouvelle techno, un nouveau framework ou un outil inconnu est un plaisir plus-tot qu'une corvée.</br>
                 Autonome mais également très alaise en groupe je suis capable de concevoir et de développer des infrastructures complexes, adaptées et réutilisable.
               </v-card-text>
             </v-card>

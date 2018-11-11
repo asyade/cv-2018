@@ -86,7 +86,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10><v-subheader>Freelance (Développeur web)</v-subheader>
                       <v-card-text>J'ai effectué plusieurs missions web et ai complètement développé les sites suivants (la qualité est moyenne, le travail ancien) <br><a href="http://cosm-xskateboard.com">cosm-xskateboard.com</a>, <a href="http://helpjivan.org/">helpjivan.org</a>, <a href="http://www.aquareden.fr">aquareden.fr</a> et <a href="https://jeuduroi.fr">jeuduroi.fr</a></v-card-text></v-flex>
-                      <v-flex font-italic caption xs2 text-xs-right>Entre 2015 et 2017</v-flex>
+                      <v-flex font-italic caption xs2 text-xs-right><p>Entre 2015<br/>et 2017</p></v-flex>
                     </v-layout>
                   </v-timeline-item>
                 </v-timeline>
@@ -176,7 +176,7 @@
           { id: 6, name: 'SqlLite/MySql' },
           { id: 7, name: 'Open LDAP' },
           { id: 8, name: 'OpenGL/OpenCL' },
-          { id: 9, name: 'Rocker/Express/Nancy' },
+          { id: 9, name: 'Rocket/Express/Nancy' },
         ]
       },
       {

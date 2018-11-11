@@ -68,7 +68,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>MOORE - CDD</v-subheader>
-                        <p style="padding: 0em 1em;">J'ai participé à la réécriture du prototype de MOORE, un filesystem connecté au cloud utilisant un AI, il vise principalement le marché du mobile c'est pourquoi nous il a été réécrit pour Android, principalement en RUST</p>
+                        <p style="padding: 0em 1em;">J'ai participé à la réécriture du prototype de MOORE, un filesystem connecté au cloud utilisant un AI, il vise principalement le marché du mobile c'est pourquoi  il a été réécrit pour Android, principalement en RUST</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>05/2018 09/2018</v-flex>
                     </v-layout>

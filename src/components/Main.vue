@@ -97,7 +97,7 @@
             <v-card>
               <v-card-title>
               </v-card-title>
-              <v-card-text style="padding: 2em 2.2em 2em 2.2em;">
+              <v-card-text style="padding: 0em 2.2em 2em 2.2em;">
                   Ayant un large spectre de connaissances techniques, de l'applicatif à la programmation système en passant par le web je serais un atout pour tout projet à lourde charge technique.
                   Autonome mais également alaise en groupe mon environnement de prédilection est la start-up/lab mais je suis ouvert à tout type d'expériences professionnelles
               </v-card-text>

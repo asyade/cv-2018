@@ -59,7 +59,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>Seed-up - STAGE</v-subheader>
-                        <p style="padding: 0em 1em;">Durant ce stage, je me suis familiarisé avec l'intégration continue, la méthode agile et l'écosystème AWS par le biais de plusieurs applications et programmes de test</p>
+                        <p style="padding: 0em 1em;">J'ai pu me familiarisés avec l'intégration continue, la méthode agile et l'écosystème AWS par le biais de plusieurs applications desktop et mobile</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>11/2017 05/2018</v-flex>
                     </v-layout>
@@ -68,7 +68,7 @@
                     <v-layout text-xs-left justify-space-between>
                       <v-flex xs10>
                         <v-subheader>MOORE - CDD</v-subheader>
-                        <p style="padding: 0em 1em;">J'ai participé à la réécriture du prototype de MOORE, un filesystem connecté au cloud utilisant un apprentissage intelligent. Il vise principalement le marché du mobile c'est pourquoi il a été réécrit pour Android en RUST</p>
+                        <p style="padding: 0em 1em;">J'ai participé à la réécriture de MOORE, un filesystem connecté au cloud utilisant un apprentissage intelligent pour optimiser la disponibilité des fichiers hors connexion. La techno est développée pour Android en RUST</p>
                       </v-flex>
                       <v-flex font-italic caption xs2 text-xs-right>05/2018 09/2018</v-flex>
                     </v-layout>
@@ -101,9 +101,8 @@
                 <v-subheader style="padding: 4px 0px 16px 0px;">
                   Qui sui-je ?
                 </v-subheader>
-                Passionner par la programmation je n'ai de cesse de développer mes compétences, je prendre le temps de faire du code de qualité et suis curieux, toujours a la recherche des meilleurs alternative.<br/>
-                Mon atout principal est ma capacité à apprendre, pour moi utiliser une nouvelle techno, un nouveau framework ou un outil inconnu est un plaisir plus-tot qu'une corvée.</br>
-                Autonome mais également très alaise en groupe je suis capable de concevoir et de développer des infrastructures complexes, adaptées et réutilisable.
+                  Ayant un large spectre de connaissances techniques, de l'applicatif à la programmation système en passant par le web je serais un atout pour tout projet à lourde charge technique.
+                  Autonome mais également alaise en groupe mon environnement de prédilection est la start-up/lab mais je suis ouvert à tout type d'expériences professionnelles
               </v-card-text>
             </v-card>
           </v-flex>
